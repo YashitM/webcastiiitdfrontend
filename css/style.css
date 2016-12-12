@@ -1,4 +1,4 @@
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6, .event-heading, .event-heading-small {
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform:uppercase;
 	font-weight:700
@@ -100,8 +100,61 @@ h1,h2,h3,h4,h5,h6 {
 	}
 }
 
+.special-container {
+	width: 87%;
+}
+
+#WatchEvent {
+	margin-top: -20px;
+	padding-top: 70px;
+	background-color: #eee;
+}
+
+.event-heading {
+	font-size: 40px;
+	padding-top: 10px;
+}
+
+.event-heading-small {
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.event-who {
+	font-size: 23px;
+}
+
+.event-who-small {
+	font-size: 16px;
+}
+
+.event-day {
+	font-size: 16px;
+}
+
+.event-day-small {
+	font-size: 12px;
+}
+
+.event-time {
+	font-size: 16px;
+	padding-bottom: 40px;
+}
+
+.event-time-small {
+	font-size: 12px;
+}
+
+.above-text {
+	font-size: 20px;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform:uppercase;
+	font-weight:700;
+	padding-bottom: 10px;
+}
+
 #prevevent {
-	background-color:#eee;
+	background-color:#d3d1d1;
 }
 
 #prevevent .prevevent-item .prevevent-caption p,section h3.section-subheading {
