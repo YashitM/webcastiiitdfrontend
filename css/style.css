@@ -1,0 +1,252 @@
+h1,h2,h3,h4,h5,h6 {
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform:uppercase;
+	font-weight:700
+}
+
+.search-bar {
+	background-color: rgba(50, 50, 50, 0.2);
+}
+
+.search-button {
+	background-color: rgba(50, 50, 50, 0.2);
+	transition: all 0.3s ease-in-out;
+	color: #fff;
+}
+
+.navbar-custom {
+	background-color:#222;
+	border-color:transparent
+}
+
+/*.navbar-custom .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  font-family: "Satisfy", "Helvetica Neue", Helvetica, Arial, cursive;
+}*/
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #fff;
+}
+/*
+.navbar-custom .nav li a,.navbar-custom .navbar-toggle {
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#fff;
+	text-transform:uppercase;
+	text-align: center;
+}
+
+.navbar-custom .navbar-collapse {
+	border-color:rgba(255,255,255,.02)
+}
+
+.navbar-custom .navbar-toggle {
+	background-color:#727272;
+	border-color:#727272;
+	font-size:12px;
+	transition: all 0.2s ease-in-out;
+}
+
+.navbar-brand {
+	display: block;
+	padding-right: 20px;
+}
+
+.navbar-custom .navbar-toggle:focus,.navbar-custom .navbar-toggle:hover {
+	background-color:#222222;
+}
+
+.navbar-custom .nav li a {
+	font-weight:400;
+	letter-spacing:1px;
+	transition: all 0.2s ease-in-out;
+}
+
+.navbar-custom .nav li a:focus,.navbar-custom .nav li a:hover {
+	color:#727272;
+	outline:0;
+}
+
+.navbar-custom .navbar-nav>.active>a {
+	border-radius:0;
+	color:#fff;
+	background-color:#727272;
+}
+
+.navbar-custom .navbar-nav>.active>a:focus,.navbar-custom .navbar-nav>.active>a:hover {
+	color:#fff;
+	background-color:#727272;
+}*/
+
+@media (min-width:768px)
+{
+	.navbar-custom {
+	    background-color:#222222;
+	    padding: 6px 0;
+	    -webkit-transition: padding 0.3s;
+	    -moz-transition: padding 0.3s;
+	    transition: padding 0.3s;
+	    border: none;
+	}
+	.navbar-custom .navbar-nav > .active > a {
+	    border-radius: 3px;
+	}
+}
+
+/*@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 7px 0;
+  }
+}*/
+
+
+
+
+.nav-img-size {
+  	width: 30%;
+  	height: 30%;
+  	padding-top: 1px;
+}
+
+@media screen and (max-width: 900px) {
+  	.nav-text {
+  		visibility: visible;
+  	}
+
+  	.nav-img, .nav-img-size {
+  		visibility: hidden;
+  	}
+}
+
+@media (min-width: 900px)
+{
+	.nav-text {
+		visibility: hidden;
+	}
+
+	.nav-img, .nav-img-size {
+		visibility: visible;
+	}
+}
+
+#prevevent {
+	background-color:#eee;
+}
+
+#prevevent .prevevent-item .prevevent-caption p,section h3.section-subheading {
+	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style:italic
+}
+
+section h2.section-heading-3 {
+	font-size:40px;
+	margin-bottom:65px;
+}
+
+#prevevent .prevevent-item{
+	margin:0 0 15px;
+	right:0
+}
+
+#prevevent .prevevent-item .prevevent-link{
+	display:block;
+	position:relative;
+	max-width:400px;
+	margin:0 auto
+}
+
+#prevevent .prevevent-item .prevevent-link .prevevent-hover{
+	background:#727272;
+	position:absolute;width:100%;
+	height:100%;
+	opacity:0;
+	transition:all ease .5s;
+	-webkit-transition:all ease .5s;
+	-moz-transition:all ease .5s
+}
+
+#prevevent .prevevent-item .prevevent-link .prevevent-hover:hover{
+	opacity:0.9
+}
+
+#prevevent .prevevent-item .prevevent-link .prevevent-hover .prevevent-hover-content{
+	position:absolute;width:100%;
+	height:20px;
+	font-size:20px;
+	text-align:center;
+	top:50%;
+	margin-top:-12px;
+	color:#fff
+}
+
+#prevevent .prevevent-item .prevevent-link .prevevent-hover .prevevent-hover-content i{
+	margin-top:-12px
+}
+
+#prevevent .prevevent-item .prevevent-link .prevevent-hover .prevevent-hover-content h3,#prevevent .prevevent-item .prevevent-link .prevevent-hover .prevevent-hover-content h4{
+	margin:0
+}
+
+#prevevent .prevevent-item .prevevent-caption{
+	max-width:400px;
+	margin:0 auto;
+	background-color:#fff;
+	text-align:center;
+	padding:25px
+}
+
+#prevevent .prevevent-item .prevevent-caption h4{
+	text-transform:none;
+	margin:0
+}
+
+#prevevent .prevevent-item .prevevent-caption p{
+	font-size:16px;
+	margin:0
+}
+
+#prevevent *{z-index:2}
+
+@media (min-width:767px)
+{
+	#prevevent .prevevent-item{
+		margin:0 0 30px
+	}
+}
+
+footer{
+	padding:20px 0;
+	text-align:center;
+	background-color: #aaaaaa;
+}
+
+.footer-text{
+	display: block;
+	margin-top: 10px;
+}
+
+ul.social-buttons{
+	margin-bottom:0
+}
+
+ul.social-buttons li a{
+	display:block;
+	background-color:#727272;
+	height:40px;
+	width:40px;
+	border-radius:100%;
+	font-size:20px;
+	line-height:40px;
+	color:#fff;
+	outline:0;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	transition:all .3s;
+}
+
+ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover{
+	background-color:#222;
+}
