@@ -1,23 +1,26 @@
-(function($) {
-    "use strict";
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 50)
-        }, 1250, 'easeInOutExpo');
-        event.preventDefault();
+$(document).ready(function (){
+  $("#HomeButton").click(function(){                
+       $('html, body').animate({
+            scrollTop: 0
+      }, 600);      
+      return false;         
+  });
+  $("#HomeButton1").click(function(){                
+         $('html, body').animate({
+              scrollTop: 0
+        }, 600);      
+        return false;         
     });
-    $('body').scrollspy({
-        target: '.navbar-fixed-top',
-        offset: 51
+  $("#HomeButton2").click(function(){                
+         $('html, body').animate({
+              scrollTop: 0
+        }, 600);      
+        return false;         
     });
-    $('.navbar-collapse ul li a').click(function(){ 
-            $('.navbar-toggle:visible').click();
+  $("#PreviousButton").click(function(){                
+         $('html, body').animate({
+              scrollTop: $("#prevevent").offset().top - 49
+        }, 600);        
+        return false;       
     });
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
-    })
-
-})(jQuery);
+});
